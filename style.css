@@ -1,0 +1,151 @@
+*{
+	overflow: auto;
+}
+
+
+
+body {
+	background: #8BA1BB;
+	font-family: arial;
+	margin: auto;
+}
+
+.main {
+	background-color: black;
+	color: white;
+	display: inline-block;
+	padding: 8px 18px;
+	margin-right: 6px;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: -60px;
+	overflow: visible;
+}
+
+.contenu{
+	background-color: white;
+	margin: 80px 100px 100px 60px;
+	padding: 0px 30px 30px;
+	margin-bottom: 0;
+	min-width: 350px;
+	box-shadow: 10px 5px 5px grey;
+	overflow: visible;
+}
+.feu {
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+div.feu{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	overflow: visible;
+}
+
+.par {
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	width: 100%;
+}
+
+.separateur{
+	height: 1px;
+	width: 100px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
+
+table.infu td{
+	text-align: center;
+	padding-top: 15px;
+}
+
+div.poulay{
+	position: relative;
+}
+
+table.infu{
+	position: absolute; 
+	bottom: 0px; 
+	width: 100%; 
+	color: white; 
+	background-color: #6C829D;
+	padding: 16px;
+}
+
+img.par{
+	display: block;
+	max-height: 400px;
+	object-fit: cover;
+	min-height: 200px;
+	background-color: lightblue;
+}
+
+.ingredient{
+	background-color:;
+	width: 45%;
+	display: inline-block;
+	margin-top: 2%;
+}
+
+.preparation{
+	width: 45%;
+	float: right;
+	margin-top: 2%;
+}
+
+.preparation h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 2px solid goldenrod;
+	margin-right: 5px;
+	padding: 2px;
+	
+}
+
+.ingredient h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 2px solid goldenrod;
+	padding: 2px;
+}
+
+.aline p{
+	text-align: center;
+	border: 2px solid lightgray;
+	padding: 7px 0px;
+	font-size: 14px;
+	margin: 4px;
+}
+
+table.prepo p.numero{
+	background-color: lightblue;
+	color: white;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	padding-top: 5px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin: 0px;
+}
+
+table.prepo td{
+	vertical-align: top;
+}
+
+table.prepo td.prepor{
+	font-size: 15px;
+	padding-left: 8px;
+}
+
+table.prepo tr{
+	height: 40px;
+}
+
